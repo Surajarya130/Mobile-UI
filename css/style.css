@@ -1,0 +1,178 @@
+body{
+    background-color: tan;
+}
+
+.outer{
+    border: 1px solid white;
+    height: auto;
+    width: 18.75rem;
+    background-color: white;
+    border-radius: 2.1rem 2.1rem 2.1rem 2.1rem;
+    margin: 0 auto;
+}
+.main{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 99%;
+    margin: 0.313rem auto;
+    border-radius: 0 0 2rem 2rem;
+    overflow: hidden;
+}
+
+/* Edge Style */
+.upperEdge{
+    height: 5.2rem;
+    width: 97%;
+    border-radius: 2rem 2rem 0 0;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: 0 auto;
+    background-color: #843FE8;
+}
+.upperEdge::before{
+    margin: auto;
+    content: "";
+    height: 1.563rem;
+    /* position: relative; */
+    width: 60%;
+    display: flex;
+    border-radius: 0 0 0.99rem 0.99rem;
+    background: white;
+    /* border: 1px solid green; */
+}
+.user{
+    width: 100%;
+    height: 70%;
+    background-color: #843FE8;
+}
+.avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 3% 5% -9.15% 9%;
+}
+.userName{
+    display: inline;
+    font-size: larger;
+    font-weight: 600;
+}
+.avail{
+    display: block;
+    margin: 0.188rem 0 0 5.313rem;
+    font-size: small;
+}
+.dot{
+    position: relative;
+    bottom: 1.875rem;
+    left: 15.625rem;
+    width: 0.80rem;
+    height: 0.90rem;
+}
+
+
+/* Mid portion coding start here */
+.midPortion{
+    height: 34rem;
+    width: 97%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #F5F3F8;
+    padding-top: 1px;
+}
+.msgSender{
+    width: 60%;
+    height: auto;
+    border: 1px solid #efe0e0;
+    border-radius: 0.625rem;
+    margin: 0.625rem;
+    padding: 0.27rem;
+    background-color: #ECE5F4;
+}
+.firstMsg{
+    margin: 0;
+    color: darkmagenta;
+}
+
+/*Dogs Pic*/
+.dogImg{
+    width: auto;
+    height: auto;
+    float: right;
+    margin: 0 10px 0 0;
+}
+.dog{
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+}
+.secMsgR{
+    width: 51%;
+    border: 1px solid #efe0e0;
+    border-radius: 0.625rem;
+    margin: 0.188rem 0.625rem 0.25rem 0;
+    padding: 0.27rem;
+    float: right;
+    background-color: #ECE5F4;
+}
+.mod{
+    width: auto;
+}
+.mod2{
+    float: left;
+    width: 61%;
+}
+
+
+/*Rate Message portion*/
+.rateMsg{
+    width: 70%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+}
+.secMsgRate{
+    width: 65%;
+    border: 1px solid #efe0e0;
+    border-radius: 0.625rem;
+    margin: 0.3rem 0 0 0.625rem;
+    padding: 0.67rem;
+    float: left;
+    background: #9354ef;
+}
+.liDot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #9354ef;
+    display: flex;
+    border: 1px solid white;
+}
+.rateChat{
+    display: flex;
+    margin: -20px 0px 2px 35px;
+    padding-top: 0px;
+    color: blanchedalmond;
+}
+.rMod{
+    margin-top: 0.6rem;
+}
+.inputBox{
+    width: 92.5%;
+    height: 3.2rem;
+    border: 1px solid black;
+    float: left;
+    margin: 0.625rem 0.625rem 0.625rem 0.625rem;
+    border-radius: 50px;
+    background-color: white;
+}
+.arrowIcon{
+    display: flex;
+    margin: -3.05rem 0rem 0 13.5rem;
+    width: 50px;
+    width: 50px;
+}
+.typoMsg{
+    padding-left: 13px;
+    color: cornflowerblue;
+}
